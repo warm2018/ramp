@@ -8,6 +8,7 @@ import random
 import traci
 import math
 import xlsxwriter
+from write_excel import write_excel
 
 from copy import deepcopy
 
@@ -22,12 +23,22 @@ if 'SUMO_HOME' in os.environ:
 else:   
      sys.exit("please declare environment variable 'SUMO_HOME'")
 
+## Write data to Excel 
+workbook = xlsxwriter.Workbook('result/trajectory1.xlsx') 
+worksheet = workbook.add_worksheet('test1')
+RouteList_left = ('bi', 'a1i_1', 'ci')
+RouteList_straight = ("to_a4","a4i","a2o","go_a2")
+RouteList = RouteList_left
+vehicle_store = []
 
-CACC_space = 50
+begin_step = 10
+WRITE_EXCEL = True
+## Write data to Excel
+CACC_space = 10
 
 def find_sequence(lane_result):
     CAV_set = []; HV = [0]; CAV_total = []; HV_total = [];
-    count1 = 0; count2 = 0;
+    count1 = -1; count2 = -1;
     for member in lane_result:
         if member.find('CAV') != -1:
             count2 = 0
@@ -43,8 +54,12 @@ def find_sequence(lane_result):
                 count2 = 1
             HV = [member]
 
+    if CAV_set != []:
+        CAV_total.append(CAV_set)
     topology = []   
     length = len(HV_total)
+    print(CAV_total)
+    print(length)
     for x,y in zip(HV_total,CAV_total[-length:]):
         if x == [0]:
             z = y
@@ -63,21 +78,30 @@ def run():
     traci.addStepListener(plexe)
     StepLength = 0.01
     topology = {}
-    while STEP < 1800: 
+    while STEP < 400: 
         traci.simulationStep()  
         STEP += StepLength
         if int(STEP*100) % 500 == 0:
             Vehicles_0 = traci.lane.getLastStepVehicleIDs("a1i_1_0")
-            Vehicles_1 = traci.lane.getLastStepVehicleIDs("a1i_1_1")
-            Vehicles_2 = traci.lane.getLastStepVehicleIDs("a1i_1_2")
-            Vehicles_3 = traci.lane.getLastStepVehicleIDs("a1i_1_3")
-            for lane in [Vehicles_0,Vehicles_1,Vehicles_2,Vehicles_3]:
+            #Vehicles_1 = traci.lane.getLastStepVehicleIDs("a1i_1_1")
+            #Vehicles_2 = traci.lane.getLastStepVehicleIDs("a1i_1_2")
+            #Vehicles_3 = traci.lane.getLastStepVehicleIDs("a1i_1_3")
+            #for lane in [Vehicles_0,Vehicles_1,Vehicles_2,Vehicles_3]:
+            for lane in [Vehicles_0]:   
                 position_result,lane_result = sort_lane(lane)
                 platooning_members = find_sequence(lane_result)
-                #print("&&&&&&&",platooning_members)
+                print("&&&&&&&",platooning_members)
                 platoon_forming(plexe,platooning_members,topology)
-                platoon_die(plexe, topology)
+                print("topology",topology)
+                print("&&&&&&&",platooning_members)
+
+        if int(STEP*100) % 500 == 0:
+            platoon_die(plexe, topology)
             #print("######")
+        if STEP >= 20 and WRITE_EXCEL and int(STEP*100) % 10 == 0:
+            currentIDList = traci.vehicle.getIDList()
+            print('999')
+            write_excel(STEP, worksheet, begin_step,RouteList,vehicle_store,currentIDList)
     workbook.close()
     traci.close()
     sys.stdout.flush()
@@ -187,9 +211,6 @@ def platoon_die(plexe,topology):
             route = traci.vehicle.getRoute(last_follower)
             #obtain current edge which the vehicle running nowS
             current_edge = traci.vehicle.getRoadID(last_follower)
-            #if current edge is at the last edge of route
-            #if vehicle run in last edge, give the followers back to ACC
-            #control algorithm
             if current_edge == route[-1]:
                 for followerID in followers:
                     plexe.set_active_controller(followerID,ACC) 

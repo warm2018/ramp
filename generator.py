@@ -26,12 +26,12 @@ def generate_platoon(VehicleRate,penetration,SimuTime):
 		   minGap="10" maxSpeed="15" color="1,0,0"  carFollowModel="IDM" />
 		<route id="route1" edges="bi a1i_1 ci "/> """, file=routes)
 
-		print('<flow id="a1i_CAV" type="CAV" route="route1" departSpeed ="10" departLane ="3" begin="0" end="%i" probability="%s"/>' % (SimuTime,CAVprob), file=routes)    
-		print('<flow id="a1i_HV" type="HV" route="route1" departSpeed ="10" departLane ="3" begin="0" end="%i" probability="%s"/>' % (SimuTime,HVprob), file=routes)
-		print('<flow id="a2i_CAV" type="CAV" route="route1" departSpeed ="10" departLane ="2" begin="0" end="%i" probability="%s"/>' % (SimuTime,CAVprob), file=routes)    
-		print('<flow id="a2i_HV" type="HV" route="route1" departSpeed ="10" departLane ="2" begin="0" end="%i" probability="%s"/>' % (SimuTime,HVprob), file=routes) 
-		print('<flow id="a3i_CAV" type="CAV" route="route1" departSpeed ="10" departLane ="1" begin="0" end="%i" probability="%s"/>' % (SimuTime,CAVprob), file=routes)    
-		print('<flow id="a3i_HV" type="HV" route="route1" departSpeed ="10" departLane ="1" begin="0" end="%i" probability="%s"/>' % (SimuTime,HVprob), file=routes) 
+		#print('<flow id="a1i_CAV" type="CAV" route="route1" departSpeed ="10" departLane ="3" begin="0" end="%i" probability="%s"/>' % (SimuTime,CAVprob), file=routes)    
+		#print('<flow id="a1i_HV" type="HV" route="route1" departSpeed ="10" departLane ="3" begin="0" end="%i" probability="%s"/>' % (SimuTime,HVprob), file=routes)
+		#print('<flow id="a2i_CAV" type="CAV" route="route1" departSpeed ="10" departLane ="2" begin="0" end="%i" probability="%s"/>' % (SimuTime,CAVprob), file=routes)    
+		#print('<flow id="a2i_HV" type="HV" route="route1" departSpeed ="10" departLane ="2" begin="0" end="%i" probability="%s"/>' % (SimuTime,HVprob), file=routes) 
+		#print('<flow id="a3i_CAV" type="CAV" route="route1" departSpeed ="10" departLane ="1" begin="0" end="%i" probability="%s"/>' % (SimuTime,CAVprob), file=routes)    
+		#print('<flow id="a3i_HV" type="HV" route="route1" departSpeed ="10" departLane ="1" begin="0" end="%i" probability="%s"/>' % (SimuTime,HVprob), file=routes) 
 		print('<flow id="a4i_CAV" type="CAV" route="route1" departSpeed ="10" departLane ="0" begin="0" end="%i" probability="%s"/>' % (SimuTime,CAVprob), file=routes)    
 		print('<flow id="a4i_HV" type="HV" route="route1" departSpeed ="10" departLane ="0" begin="0" end="%i" probability="%s"/>' % (SimuTime,HVprob), file=routes)                
 		print("</flows>", file=routes)     

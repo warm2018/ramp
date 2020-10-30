@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 01/13/20 21:46:33 by Eclipse SUMO GUI Version 1.3.1
+<!-- generated on 02/24/20 08:44:15 by Eclipse SUMO GUI Version 1.3.1
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
@@ -28,7 +28,7 @@
     </emissions>
 
     <traci_server>
-        <remote-port value="55611"/>
+        <remote-port value="50540"/>
     </traci_server>
 
     <gui_only>
@@ -39,4 +39,283 @@
 -->
 
 <tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
+    <tripinfo id="a4i_HV.0" depart="0.76" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="0.00" arrival="174.31" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.00" duration="173.55" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="0.51" rerouteNo="0" devices="tripinfo_a4i_HV.0 emissions_a4i_HV.0" vType="HV" speedFactor="1.06" vaporized="">
+        <emissions CO_abs="2433.177073" CO2_abs="370385.787106" HC_abs="19.344655" PMx_abs="5.229334" NOx_abs="137.300995" fuel_abs="159.212739" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_HV.1" depart="5.34" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="0.00" arrival="178.86" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.00" duration="173.52" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="0.48" rerouteNo="0" devices="tripinfo_a4i_HV.1 emissions_a4i_HV.1" vType="HV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="615.705538" CO2_abs="399194.003665" HC_abs="5.620341" PMx_abs="2.904862" NOx_abs="124.864819" fuel_abs="171.598084" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_CAV.0" depart="8.36" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="0.00" arrival="181.12" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.00" duration="172.76" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="-0.28" rerouteNo="0" devices="tripinfo_a4i_CAV.0 emissions_a4i_CAV.0" vType="CAV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="749.869900" CO2_abs="117078.890029" HC_abs="6.017433" PMx_abs="1.594457" NOx_abs="43.042686" fuel_abs="50.327193" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_HV.2" depart="9.66" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="0.43" arrival="184.00" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="14.99" duration="174.34" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="1.30" rerouteNo="0" devices="tripinfo_a4i_HV.2 emissions_a4i_HV.2" vType="HV" speedFactor="1.08" vaporized="">
+        <emissions CO_abs="2628.812452" CO2_abs="379190.791286" HC_abs="20.464622" PMx_abs="5.426860" NOx_abs="141.281273" fuel_abs="162.997614" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_HV.3" depart="11.38" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="1.54" arrival="186.60" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.00" duration="175.22" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="2.18" rerouteNo="0" devices="tripinfo_a4i_HV.3 emissions_a4i_HV.3" vType="HV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="862.292271" CO2_abs="335521.803092" HC_abs="6.759753" PMx_abs="2.704418" NOx_abs="107.409246" fuel_abs="144.227761" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_CAV.1" depart="13.72" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="0.00" arrival="188.77" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="14.99" duration="175.05" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="2.02" rerouteNo="0" devices="tripinfo_a4i_CAV.1 emissions_a4i_CAV.1" vType="CAV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="773.440568" CO2_abs="275077.572144" HC_abs="6.437346" PMx_abs="2.375501" NOx_abs="89.493240" fuel_abs="118.245020" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_CAV.2" depart="15.41" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="0.30" arrival="191.02" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.01" duration="175.61" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="2.57" rerouteNo="0" devices="tripinfo_a4i_CAV.2 emissions_a4i_CAV.2" vType="CAV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="1012.969749" CO2_abs="235977.105286" HC_abs="7.828435" PMx_abs="2.392744" NOx_abs="79.938342" fuel_abs="101.437061" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_CAV.3" depart="18.61" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="0.00" arrival="193.33" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.03" duration="174.72" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="1.69" rerouteNo="0" devices="tripinfo_a4i_CAV.3 emissions_a4i_CAV.3" vType="CAV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="956.314922" CO2_abs="217512.925212" HC_abs="7.476054" PMx_abs="2.269049" NOx_abs="74.177793" fuel_abs="93.499994" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_CAV.4" depart="21.21" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="0.00" arrival="195.70" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.04" duration="174.49" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="1.45" rerouteNo="0" devices="tripinfo_a4i_CAV.4 emissions_a4i_CAV.4" vType="CAV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="1230.491238" CO2_abs="224827.721893" HC_abs="9.148250" PMx_abs="2.575548" NOx_abs="78.592993" fuel_abs="96.644194" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_CAV.5" depart="23.51" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="0.00" arrival="198.12" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.03" duration="174.61" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="1.57" rerouteNo="0" devices="tripinfo_a4i_CAV.5 emissions_a4i_CAV.5" vType="CAV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="1321.680360" CO2_abs="222552.461254" HC_abs="9.660228" PMx_abs="2.627833" NOx_abs="78.434913" fuel_abs="95.666131" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_HV.4" depart="24.80" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="0.59" arrival="200.04" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="14.99" duration="175.24" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="2.20" rerouteNo="0" devices="tripinfo_a4i_HV.4 emissions_a4i_HV.4" vType="HV" speedFactor="1.09" vaporized="">
+        <emissions CO_abs="2680.220000" CO2_abs="381888.596047" HC_abs="20.777347" PMx_abs="5.470075" NOx_abs="142.437762" fuel_abs="164.157294" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_HV.5" depart="26.52" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="1.68" arrival="202.64" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.01" duration="176.12" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="3.08" rerouteNo="0" devices="tripinfo_a4i_HV.5 emissions_a4i_HV.5" vType="HV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="1034.715957" CO2_abs="339553.601173" HC_abs="8.308236" PMx_abs="2.973972" NOx_abs="110.831465" fuel_abs="145.960720" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_CAV.6" depart="28.57" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="0.21" arrival="205.00" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.01" duration="176.43" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="3.39" rerouteNo="0" devices="tripinfo_a4i_CAV.6 emissions_a4i_CAV.6" vType="CAV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="1072.245079" CO2_abs="244561.838303" HC_abs="8.227128" PMx_abs="2.491077" NOx_abs="82.923858" fuel_abs="105.127295" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_HV.6" depart="32.46" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="0.00" arrival="206.94" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="14.99" duration="174.48" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="1.44" rerouteNo="0" devices="tripinfo_a4i_HV.6 emissions_a4i_HV.6" vType="HV" speedFactor="1.12" vaporized="">
+        <emissions CO_abs="2464.203985" CO2_abs="372368.657435" HC_abs="19.540452" PMx_abs="5.247779" NOx_abs="138.072494" fuel_abs="160.065112" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_HV.7" depart="33.76" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="0.97" arrival="209.54" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.01" duration="175.78" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="2.74" rerouteNo="0" devices="tripinfo_a4i_HV.7 emissions_a4i_HV.7" vType="HV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="890.344469" CO2_abs="347818.618891" HC_abs="7.731906" PMx_abs="2.935241" NOx_abs="112.594689" fuel_abs="149.513574" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_CAV.7" depart="36.61" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="0.00" arrival="211.84" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.00" duration="175.23" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="2.19" rerouteNo="0" devices="tripinfo_a4i_CAV.7 emissions_a4i_CAV.7" vType="CAV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="779.161628" CO2_abs="279090.664872" HC_abs="6.744485" PMx_abs="2.459335" NOx_abs="91.228253" fuel_abs="119.970042" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_CAV.8" depart="37.91" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="0.69" arrival="214.20" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.02" duration="176.29" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="3.25" rerouteNo="0" devices="tripinfo_a4i_CAV.8 emissions_a4i_CAV.8" vType="CAV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="965.784371" CO2_abs="244988.029122" HC_abs="7.694051" PMx_abs="2.408105" NOx_abs="82.380641" fuel_abs="105.310543" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_CAV.9" depart="39.41" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="1.16" arrival="216.60" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.02" duration="177.19" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="4.15" rerouteNo="0" devices="tripinfo_a4i_CAV.9 emissions_a4i_CAV.9" vType="CAV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="1221.176661" CO2_abs="233953.569202" HC_abs="9.101732" PMx_abs="2.551096" NOx_abs="80.929890" fuel_abs="100.567145" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_CAV.10" depart="41.08" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="0.65" arrival="219.04" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.02" duration="177.96" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="4.92" rerouteNo="0" devices="tripinfo_a4i_CAV.10 emissions_a4i_CAV.10" vType="CAV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="1354.061888" CO2_abs="229921.735741" HC_abs="9.851174" PMx_abs="2.618584" NOx_abs="80.546469" fuel_abs="98.833991" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_HV.8" depart="44.74" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="0.00" arrival="220.97" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="14.99" duration="176.23" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="3.19" rerouteNo="0" devices="tripinfo_a4i_HV.8 emissions_a4i_HV.8" vType="HV" speedFactor="1.16" vaporized="">
+        <emissions CO_abs="2651.341966" CO2_abs="382679.086921" HC_abs="20.643865" PMx_abs="5.433552" NOx_abs="142.437365" fuel_abs="164.497132" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_HV.9" depart="46.04" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="0.67" arrival="223.56" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.01" duration="177.52" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="4.48" rerouteNo="0" devices="tripinfo_a4i_HV.9 emissions_a4i_HV.9" vType="HV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="1025.188663" CO2_abs="355250.664171" HC_abs="8.536649" PMx_abs="3.040288" NOx_abs="115.605276" fuel_abs="152.708340" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_CAV.11" depart="49.29" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="0.00" arrival="225.98" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.01" duration="176.69" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="3.66" rerouteNo="0" devices="tripinfo_a4i_CAV.11 emissions_a4i_CAV.11" vType="CAV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="946.209204" CO2_abs="271991.564784" HC_abs="7.722444" PMx_abs="2.527628" NOx_abs="90.209116" fuel_abs="116.918386" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_CAV.12" depart="50.59" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="0.19" arrival="228.44" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.01" duration="177.85" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="4.81" rerouteNo="0" devices="tripinfo_a4i_CAV.12 emissions_a4i_CAV.12" vType="CAV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="1202.298180" CO2_abs="244540.740991" HC_abs="9.067449" PMx_abs="2.574234" NOx_abs="83.843940" fuel_abs="105.118216" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_CAV.13" depart="52.30" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="0.00" arrival="230.92" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.01" duration="178.62" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="5.59" rerouteNo="0" devices="tripinfo_a4i_CAV.13 emissions_a4i_CAV.13" vType="CAV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="1251.809241" CO2_abs="234203.609054" HC_abs="9.341860" PMx_abs="2.541218" NOx_abs="81.006172" fuel_abs="100.674683" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_HV.10" depart="55.42" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="0.00" arrival="233.63" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.00" duration="178.21" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="5.17" rerouteNo="0" devices="tripinfo_a4i_HV.10 emissions_a4i_HV.10" vType="HV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="1029.906423" CO2_abs="401776.967136" HC_abs="8.508987" PMx_abs="3.253855" NOx_abs="129.053505" fuel_abs="172.708297" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_CAV.14" depart="56.72" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="0.45" arrival="235.95" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.00" duration="179.23" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="6.19" rerouteNo="0" devices="tripinfo_a4i_CAV.14 emissions_a4i_CAV.14" vType="CAV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="1202.767543" CO2_abs="140514.625531" HC_abs="8.647691" PMx_abs="1.968581" NOx_abs="52.758509" fuel_abs="60.401319" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_CAV.15" depart="66.72" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="0.00" arrival="238.33" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.02" duration="171.61" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="-1.43" rerouteNo="0" devices="tripinfo_a4i_CAV.15 emissions_a4i_CAV.15" vType="CAV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="2261.966877" CO2_abs="209495.063044" HC_abs="15.197996" PMx_abs="3.524666" NOx_abs="82.284662" fuel_abs="90.052636" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_CAV.16" depart="68.06" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="0.00" arrival="240.74" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.02" duration="172.68" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="-0.35" rerouteNo="0" devices="tripinfo_a4i_CAV.16 emissions_a4i_CAV.16" vType="CAV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="2171.816800" CO2_abs="207982.138918" HC_abs="14.745219" PMx_abs="3.393911" NOx_abs="80.896399" fuel_abs="89.402409" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_HV.11" depart="70.30" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="0.00" arrival="243.90" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.00" duration="173.60" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="0.56" rerouteNo="0" devices="tripinfo_a4i_HV.11 emissions_a4i_HV.11" vType="HV" speedFactor="1.13" vaporized="">
+        <emissions CO_abs="2464.708673" CO2_abs="372597.369122" HC_abs="19.554601" PMx_abs="5.275938" NOx_abs="138.257951" fuel_abs="160.163392" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_HV.12" depart="75.48" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="0.00" arrival="248.96" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.00" duration="173.48" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="0.44" rerouteNo="0" devices="tripinfo_a4i_HV.12 emissions_a4i_HV.12" vType="HV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="602.720257" CO2_abs="400511.632597" HC_abs="5.475414" PMx_abs="2.886460" NOx_abs="125.033079" fuel_abs="172.164502" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_CAV.17" depart="76.77" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="0.50" arrival="251.22" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.00" duration="174.45" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="1.41" rerouteNo="0" devices="tripinfo_a4i_CAV.17 emissions_a4i_CAV.17" vType="CAV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="738.702157" CO2_abs="121416.564064" HC_abs="5.993679" PMx_abs="1.576649" NOx_abs="44.124911" fuel_abs="52.191849" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_HV.13" depart="78.28" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="1.64" arrival="253.82" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.02" duration="175.54" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="2.50" rerouteNo="0" devices="tripinfo_a4i_HV.13 emissions_a4i_HV.13" vType="HV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="881.293165" CO2_abs="402770.139306" HC_abs="7.709618" PMx_abs="3.194826" NOx_abs="128.518138" fuel_abs="173.135216" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_CAV.18" depart="80.17" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="2.63" arrival="256.21" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.01" duration="176.04" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="3.00" rerouteNo="0" devices="tripinfo_a4i_CAV.18 emissions_a4i_CAV.18" vType="CAV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="1006.894742" CO2_abs="133413.477480" HC_abs="7.585582" PMx_abs="1.839116" NOx_abs="49.558970" fuel_abs="57.348798" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_HV.14" depart="82.10" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="4.16" arrival="258.87" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.01" duration="176.77" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="3.73" rerouteNo="0" devices="tripinfo_a4i_HV.14 emissions_a4i_HV.14" vType="HV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="1026.067128" CO2_abs="404142.413787" HC_abs="8.518559" PMx_abs="3.287293" NOx_abs="129.775557" fuel_abs="173.725094" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_CAV.19" depart="84.32" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="3.39" arrival="261.28" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.01" duration="176.96" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="3.92" rerouteNo="0" devices="tripinfo_a4i_CAV.19 emissions_a4i_CAV.19" vType="CAV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="1129.203979" CO2_abs="148301.008140" HC_abs="8.448513" PMx_abs="2.011625" NOx_abs="54.875616" fuel_abs="63.748371" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_HV.15" depart="86.45" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="4.52" arrival="263.94" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.01" duration="177.49" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="4.45" rerouteNo="0" devices="tripinfo_a4i_HV.15 emissions_a4i_HV.15" vType="HV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="1144.237406" CO2_abs="388128.990107" HC_abs="9.198689" PMx_abs="3.292258" NOx_abs="125.899336" fuel_abs="166.841488" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_CAV.20" depart="88.81" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="6.38" arrival="266.03" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="14.97" duration="177.22" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="4.18" rerouteNo="0" devices="tripinfo_a4i_CAV.20 emissions_a4i_CAV.20" vType="CAV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="1192.617644" CO2_abs="151171.134959" HC_abs="8.799010" PMx_abs="2.080040" NOx_abs="56.196745" fuel_abs="64.982100" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_CAV.21" depart="91.03" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="5.80" arrival="268.20" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.01" duration="177.17" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="4.13" rerouteNo="0" devices="tripinfo_a4i_CAV.21 emissions_a4i_CAV.21" vType="CAV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="1304.748026" CO2_abs="157569.985824" HC_abs="9.506278" PMx_abs="2.224417" NOx_abs="59.057004" fuel_abs="67.732659" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_CAV.22" depart="93.16" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="7.90" arrival="270.45" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.03" duration="177.29" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="4.25" rerouteNo="0" devices="tripinfo_a4i_CAV.22 emissions_a4i_CAV.22" vType="CAV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="1397.812981" CO2_abs="161964.774046" HC_abs="10.036157" PMx_abs="2.319362" NOx_abs="60.980318" fuel_abs="69.621785" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_CAV.23" depart="95.25" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="5.05" arrival="272.77" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.04" duration="177.52" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="4.48" rerouteNo="0" devices="tripinfo_a4i_CAV.23 emissions_a4i_CAV.23" vType="CAV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="1623.015359" CO2_abs="174462.944424" HC_abs="11.373487" PMx_abs="2.589696" NOx_abs="66.433812" fuel_abs="74.994166" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_CAV.24" depart="97.32" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="3.38" arrival="275.14" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.04" duration="177.82" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="4.78" rerouteNo="0" devices="tripinfo_a4i_CAV.24 emissions_a4i_CAV.24" vType="CAV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="1696.898710" CO2_abs="179732.451161" HC_abs="11.836038" PMx_abs="2.672175" NOx_abs="68.438984" fuel_abs="77.259320" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_CAV.25" depart="99.37" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="5.30" arrival="277.55" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.03" duration="178.18" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="5.14" rerouteNo="0" devices="tripinfo_a4i_CAV.25 emissions_a4i_CAV.25" vType="CAV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="1913.929343" CO2_abs="193564.769555" HC_abs="13.158158" PMx_abs="2.940426" NOx_abs="74.190561" fuel_abs="83.205216" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_CAV.26" depart="101.42" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="6.68" arrival="280.00" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.03" duration="178.58" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="5.54" rerouteNo="0" devices="tripinfo_a4i_CAV.26 emissions_a4i_CAV.26" vType="CAV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="1939.287403" CO2_abs="197678.703631" HC_abs="13.355487" PMx_abs="2.971926" NOx_abs="75.436751" fuel_abs="84.973667" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_HV.16" depart="107.81" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="0.00" arrival="283.45" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.00" duration="175.64" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="2.60" rerouteNo="0" devices="tripinfo_a4i_HV.16 emissions_a4i_HV.16" vType="HV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="892.827126" CO2_abs="368223.141354" HC_abs="7.491506" PMx_abs="3.016701" NOx_abs="118.320281" fuel_abs="158.284718" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_CAV.27" depart="111.17" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="0.00" arrival="285.87" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.00" duration="174.70" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="1.66" rerouteNo="0" devices="tripinfo_a4i_CAV.27 emissions_a4i_CAV.27" vType="CAV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="1076.259192" CO2_abs="144029.661245" HC_abs="8.051758" PMx_abs="2.017433" NOx_abs="53.560724" fuel_abs="61.912184" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_HV.17" depart="114.91" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="0.00" arrival="288.46" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.00" duration="173.55" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="0.51" rerouteNo="0" devices="tripinfo_a4i_HV.17 emissions_a4i_HV.17" vType="HV" speedFactor="1.09" vaporized="">
+        <emissions CO_abs="2430.096519" CO2_abs="367190.005269" HC_abs="19.271254" PMx_abs="5.200893" NOx_abs="136.257981" fuel_abs="157.839000" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_HV.18" depart="116.21" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="0.57" arrival="291.06" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.00" duration="174.85" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="1.81" rerouteNo="0" devices="tripinfo_a4i_HV.18 emissions_a4i_HV.18" vType="HV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="754.338870" CO2_abs="339242.118624" HC_abs="6.401548" PMx_abs="2.686703" NOx_abs="108.196717" fuel_abs="145.826982" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_CAV.28" depart="117.92" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="1.87" arrival="293.39" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.00" duration="175.47" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="2.43" rerouteNo="0" devices="tripinfo_a4i_CAV.28 emissions_a4i_CAV.28" vType="CAV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="795.632034" CO2_abs="307508.491742" HC_abs="6.841779" PMx_abs="2.580348" NOx_abs="99.434462" fuel_abs="132.185858" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_HV.19" depart="121.07" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="0.00" arrival="295.33" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="14.99" duration="174.26" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="1.22" rerouteNo="0" devices="tripinfo_a4i_HV.19 emissions_a4i_HV.19" vType="HV" speedFactor="0.88" vaporized="">
+        <emissions CO_abs="2411.560086" CO2_abs="369644.768476" HC_abs="19.242271" PMx_abs="5.188420" NOx_abs="136.861709" fuel_abs="158.894240" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_HV.20" depart="124.13" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="0.00" arrival="298.01" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.00" duration="173.88" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="0.84" rerouteNo="0" devices="tripinfo_a4i_HV.20 emissions_a4i_HV.20" vType="HV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="619.682601" CO2_abs="383204.833682" HC_abs="5.829855" PMx_abs="2.852591" NOx_abs="120.474095" fuel_abs="164.724920" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_CAV.29" depart="125.43" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="0.86" arrival="300.26" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.00" duration="174.83" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="1.79" rerouteNo="0" devices="tripinfo_a4i_CAV.29 emissions_a4i_CAV.29" vType="CAV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="779.176178" CO2_abs="121405.524702" HC_abs="6.197159" PMx_abs="1.605172" NOx_abs="44.391539" fuel_abs="52.187088" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_CAV.30" depart="126.93" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="2.09" arrival="302.56" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.02" duration="175.63" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="2.60" rerouteNo="0" devices="tripinfo_a4i_CAV.30 emissions_a4i_CAV.30" vType="CAV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="975.573293" CO2_abs="130064.550392" HC_abs="7.334026" PMx_abs="1.798345" NOx_abs="48.334328" fuel_abs="55.909218" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_HV.21" depart="128.60" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="0.93" arrival="304.49" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="14.99" duration="175.89" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="2.85" rerouteNo="0" devices="tripinfo_a4i_HV.21 emissions_a4i_HV.21" vType="HV" speedFactor="1.02" vaporized="">
+        <emissions CO_abs="2739.981821" CO2_abs="384539.228911" HC_abs="21.092823" PMx_abs="5.502001" NOx_abs="143.436531" fuel_abs="165.296723" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_HV.22" depart="130.62" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="2.24" arrival="307.09" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.01" duration="176.47" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="3.43" rerouteNo="0" devices="tripinfo_a4i_HV.22 emissions_a4i_HV.22" vType="HV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="992.877408" CO2_abs="326695.277388" HC_abs="7.810745" PMx_abs="2.797697" NOx_abs="106.137584" fuel_abs="140.433507" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_CAV.31" depart="132.89" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="4.12" arrival="309.33" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.00" duration="176.44" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="3.40" rerouteNo="0" devices="tripinfo_a4i_CAV.31 emissions_a4i_CAV.31" vType="CAV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="1083.905786" CO2_abs="229114.788332" HC_abs="8.046403" PMx_abs="2.362744" NOx_abs="77.991789" fuel_abs="98.487237" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_CAV.32" depart="135.06" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="1.79" arrival="311.63" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.02" duration="176.57" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="3.54" rerouteNo="0" devices="tripinfo_a4i_CAV.32 emissions_a4i_CAV.32" vType="CAV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="1279.849260" CO2_abs="224085.182655" HC_abs="9.291980" PMx_abs="2.538830" NOx_abs="78.264674" fuel_abs="96.325072" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_CAV.33" depart="137.17" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="3.20" arrival="314.00" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.03" duration="176.83" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="3.79" rerouteNo="0" devices="tripinfo_a4i_CAV.33 emissions_a4i_CAV.33" vType="CAV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="1362.949136" CO2_abs="219808.436446" HC_abs="9.743249" PMx_abs="2.575628" NOx_abs="77.520711" fuel_abs="94.486639" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_CAV.34" depart="139.23" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="2.76" arrival="316.40" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.03" duration="177.17" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="4.13" rerouteNo="0" devices="tripinfo_a4i_CAV.34 emissions_a4i_CAV.34" vType="CAV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="1575.790530" CO2_abs="221033.224312" HC_abs="11.000253" PMx_abs="2.774097" NOx_abs="79.533561" fuel_abs="95.013025" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_CAV.35" depart="141.27" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="4.70" arrival="318.85" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.03" duration="177.58" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="4.54" rerouteNo="0" devices="tripinfo_a4i_CAV.35 emissions_a4i_CAV.35" vType="CAV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="1646.065186" CO2_abs="218888.075695" HC_abs="11.411756" PMx_abs="2.807384" NOx_abs="79.265720" fuel_abs="94.090907" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_CAV.36" depart="143.30" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="4.95" arrival="321.32" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.02" duration="178.02" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="4.98" rerouteNo="0" devices="tripinfo_a4i_CAV.36 emissions_a4i_CAV.36" vType="CAV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="1706.815547" CO2_abs="215655.767510" HC_abs="11.747820" PMx_abs="2.819541" NOx_abs="78.537040" fuel_abs="92.701473" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_HV.23" depart="145.34" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="6.51" arrival="323.25" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.00" duration="177.91" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="4.87" rerouteNo="0" devices="tripinfo_a4i_HV.23 emissions_a4i_HV.23" vType="HV" speedFactor="1.08" vaporized="">
+        <emissions CO_abs="2990.204017" CO2_abs="394834.714709" HC_abs="22.500923" PMx_abs="5.713554" NOx_abs="148.028778" fuel_abs="169.722330" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_HV.24" depart="147.64" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="8.31" arrival="325.19" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.00" duration="177.55" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="4.52" rerouteNo="0" devices="tripinfo_a4i_HV.24 emissions_a4i_HV.24" vType="HV" speedFactor="1.12" vaporized="">
+        <emissions CO_abs="2955.913058" CO2_abs="391971.618573" HC_abs="22.261435" PMx_abs="5.670211" NOx_abs="146.870411" fuel_abs="168.491605" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_HV.25" depart="150.10" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="8.72" arrival="327.14" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="14.99" duration="177.04" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="4.00" rerouteNo="0" devices="tripinfo_a4i_HV.25 emissions_a4i_HV.25" vType="HV" speedFactor="1.02" vaporized="">
+        <emissions CO_abs="2958.444456" CO2_abs="390984.878108" HC_abs="22.247850" PMx_abs="5.676029" NOx_abs="146.618501" fuel_abs="168.067426" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_HV.26" depart="152.60" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="10.96" arrival="329.74" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.00" duration="177.14" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="4.10" rerouteNo="0" devices="tripinfo_a4i_HV.26 emissions_a4i_HV.26" vType="HV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="1139.417601" CO2_abs="321230.166006" HC_abs="8.738309" PMx_abs="2.901114" NOx_abs="105.686776" fuel_abs="138.084199" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_CAV.37" depart="155.14" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="7.25" arrival="331.88" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="14.98" duration="176.74" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="3.70" rerouteNo="0" devices="tripinfo_a4i_CAV.37 emissions_a4i_CAV.37" vType="CAV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="1170.014805" CO2_abs="231908.414440" HC_abs="8.751222" PMx_abs="2.482901" NOx_abs="79.761666" fuel_abs="99.688053" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_CAV.38" depart="157.42" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="8.72" arrival="334.09" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.01" duration="176.67" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="3.63" rerouteNo="0" devices="tripinfo_a4i_CAV.38 emissions_a4i_CAV.38" vType="CAV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="1266.312951" CO2_abs="225810.499941" HC_abs="9.271690" PMx_abs="2.535709" NOx_abs="78.711250" fuel_abs="97.066735" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_CAV.39" depart="159.58" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="8.80" arrival="336.38" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.03" duration="176.80" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="3.76" rerouteNo="0" devices="tripinfo_a4i_CAV.39 emissions_a4i_CAV.39" vType="CAV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="1453.727710" CO2_abs="229772.114545" HC_abs="10.427933" PMx_abs="2.741455" NOx_abs="81.470187" fuel_abs="98.769573" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_CAV.40" depart="161.67" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="10.73" arrival="338.72" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.04" duration="177.05" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="4.01" rerouteNo="0" devices="tripinfo_a4i_CAV.40 emissions_a4i_CAV.40" vType="CAV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="1532.737547" CO2_abs="225634.012413" HC_abs="10.884054" PMx_abs="2.779559" NOx_abs="80.751662" fuel_abs="96.990740" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_CAV.41" depart="163.73" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="10.48" arrival="341.12" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.04" duration="177.39" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="4.35" rerouteNo="0" devices="tripinfo_a4i_CAV.41 emissions_a4i_CAV.41" vType="CAV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="1742.457564" CO2_abs="230164.627382" HC_abs="12.106588" PMx_abs="2.985519" NOx_abs="83.651515" fuel_abs="98.938188" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_CAV.42" depart="165.78" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="10.85" arrival="343.55" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.03" duration="177.77" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="4.73" rerouteNo="0" devices="tripinfo_a4i_CAV.42 emissions_a4i_CAV.42" vType="CAV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="1795.910936" CO2_abs="228864.697392" HC_abs="12.428794" PMx_abs="3.010873" NOx_abs="83.503674" fuel_abs="98.379404" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_CAV.43" depart="167.83" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="12.19" arrival="346.02" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.02" duration="178.19" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="5.15" rerouteNo="0" devices="tripinfo_a4i_CAV.43 emissions_a4i_CAV.43" vType="CAV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="1852.728859" CO2_abs="227777.181879" HC_abs="12.766683" PMx_abs="3.037241" NOx_abs="83.425553" fuel_abs="97.911933" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_HV.27" depart="169.87" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="12.73" arrival="347.94" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.00" duration="178.07" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="5.04" rerouteNo="0" devices="tripinfo_a4i_HV.27 emissions_a4i_HV.27" vType="HV" speedFactor="0.97" vaporized="">
+        <emissions CO_abs="3033.818519" CO2_abs="397021.228183" HC_abs="22.739299" PMx_abs="5.760210" NOx_abs="148.985454" fuel_abs="170.662212" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_HV.28" depart="172.16" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="14.33" arrival="350.54" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.01" duration="178.38" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="5.34" rerouteNo="0" devices="tripinfo_a4i_HV.28 emissions_a4i_HV.28" vType="HV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="1320.766526" CO2_abs="336576.181022" HC_abs="9.812710" PMx_abs="3.118823" NOx_abs="111.548673" fuel_abs="144.680816" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_CAV.44" depart="174.58" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="15.01" arrival="352.93" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.01" duration="178.35" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="5.31" rerouteNo="0" devices="tripinfo_a4i_CAV.44 emissions_a4i_CAV.44" vType="CAV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="1386.886133" CO2_abs="237626.561312" HC_abs="9.918265" PMx_abs="2.654114" NOx_abs="82.788239" fuel_abs="102.146026" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_CAV.45" depart="176.83" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="12.59" arrival="355.37" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.02" duration="178.54" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="5.50" rerouteNo="0" devices="tripinfo_a4i_CAV.45 emissions_a4i_CAV.45" vType="CAV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="1453.821350" CO2_abs="233028.759786" HC_abs="10.291877" PMx_abs="2.679362" NOx_abs="81.859278" fuel_abs="100.169586" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_HV.29" depart="178.99" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="9.80" arrival="358.12" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.00" duration="179.13" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="6.09" rerouteNo="0" devices="tripinfo_a4i_HV.29 emissions_a4i_HV.29" vType="HV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="1333.405008" CO2_abs="414721.086600" HC_abs="10.062132" PMx_abs="3.521625" NOx_abs="134.617309" fuel_abs="178.272422" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_CAV.46" depart="181.35" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="12.02" arrival="360.16" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="14.96" duration="178.81" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="5.77" rerouteNo="0" devices="tripinfo_a4i_CAV.46 emissions_a4i_CAV.46" vType="CAV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="1390.858262" CO2_abs="148196.532600" HC_abs="9.675469" PMx_abs="2.169376" NOx_abs="56.315200" fuel_abs="63.703400" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_CAV.47" depart="183.58" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="11.58" arrival="362.29" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.00" duration="178.71" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="5.67" rerouteNo="0" devices="tripinfo_a4i_CAV.47 emissions_a4i_CAV.47" vType="CAV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="1582.334914" CO2_abs="164262.338487" HC_abs="10.945081" PMx_abs="2.463966" NOx_abs="62.868742" fuel_abs="70.609350" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_CAV.48" depart="185.70" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="9.03" arrival="364.50" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.03" duration="178.80" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="5.76" rerouteNo="0" devices="tripinfo_a4i_CAV.48 emissions_a4i_CAV.48" vType="CAV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="1661.642755" CO2_abs="168852.198633" HC_abs="11.404587" PMx_abs="2.553465" NOx_abs="64.781296" fuel_abs="72.582329" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_CAV.49" depart="187.78" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="9.57" arrival="366.79" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.05" duration="179.01" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="5.97" rerouteNo="0" devices="tripinfo_a4i_CAV.49 emissions_a4i_CAV.49" vType="CAV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="1743.338998" CO2_abs="174443.062636" HC_abs="11.905733" PMx_abs="2.647921" NOx_abs="66.990477" fuel_abs="74.985610" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_CAV.50" depart="189.81" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="7.55" arrival="369.13" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.04" duration="179.32" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="6.28" rerouteNo="0" devices="tripinfo_a4i_CAV.50 emissions_a4i_CAV.50" vType="CAV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="1959.692428" CO2_abs="186167.936264" HC_abs="13.198411" PMx_abs="2.903106" NOx_abs="72.116775" fuel_abs="80.025591" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_CAV.51" depart="191.84" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="7.09" arrival="371.53" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.04" duration="179.69" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="6.65" rerouteNo="0" devices="tripinfo_a4i_CAV.51 emissions_a4i_CAV.51" vType="CAV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="2025.660462" CO2_abs="190887.290200" HC_abs="13.605312" PMx_abs="2.972927" NOx_abs="73.864038" fuel_abs="82.054264" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_CAV.52" depart="193.86" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="8.34" arrival="373.96" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.03" duration="180.10" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="7.06" rerouteNo="0" devices="tripinfo_a4i_CAV.52 emissions_a4i_CAV.52" vType="CAV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="2247.416469" CO2_abs="203934.118181" HC_abs="14.931829" PMx_abs="3.236272" NOx_abs="79.377350" fuel_abs="87.662509" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_HV.30" depart="195.88" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="8.14" arrival="375.87" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="14.99" duration="179.99" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="6.96" rerouteNo="0" devices="tripinfo_a4i_HV.30 emissions_a4i_HV.30" vType="HV" speedFactor="0.97" vaporized="">
+        <emissions CO_abs="3216.991981" CO2_abs="402929.372679" HC_abs="23.724224" PMx_abs="5.892376" NOx_abs="151.724764" fuel_abs="173.201894" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_HV.31" depart="198.15" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="8.99" arrival="378.46" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.01" duration="180.31" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="7.27" rerouteNo="0" devices="tripinfo_a4i_HV.31 emissions_a4i_HV.31" vType="HV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="1525.714437" CO2_abs="341359.098444" HC_abs="10.793584" PMx_abs="3.234250" NOx_abs="113.879865" fuel_abs="146.736823" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_CAV.53" depart="200.58" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="11.27" arrival="380.91" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.01" duration="180.33" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="7.29" rerouteNo="0" devices="tripinfo_a4i_CAV.53 emissions_a4i_CAV.53" vType="CAV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="1564.592822" CO2_abs="248426.320041" HC_abs="10.871922" PMx_abs="2.794334" NOx_abs="86.804389" fuel_abs="106.788456" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_HV.32" depart="202.83" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="9.60" arrival="382.85" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="14.99" duration="180.02" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="6.98" rerouteNo="0" devices="tripinfo_a4i_HV.32 emissions_a4i_HV.32" vType="HV" speedFactor="1.00" vaporized="">
+        <emissions CO_abs="3210.587775" CO2_abs="404256.331811" HC_abs="23.720605" PMx_abs="5.888024" NOx_abs="152.034520" fuel_abs="173.772322" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_HV.33" depart="205.28" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="11.93" arrival="385.44" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.01" duration="180.16" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="7.12" rerouteNo="0" devices="tripinfo_a4i_HV.33 emissions_a4i_HV.33" vType="HV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="1483.054903" CO2_abs="324880.964018" HC_abs="10.508650" PMx_abs="3.104188" NOx_abs="108.635911" fuel_abs="139.653517" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_CAV.54" depart="207.83" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="13.45" arrival="387.92" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.01" duration="180.09" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="7.05" rerouteNo="0" devices="tripinfo_a4i_CAV.54 emissions_a4i_CAV.54" vType="CAV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="1504.359856" CO2_abs="175634.647512" HC_abs="10.310599" PMx_abs="2.349068" NOx_abs="64.778764" fuel_abs="75.498063" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_CAV.55" depart="210.13" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="14.44" arrival="390.42" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.01" duration="180.29" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="7.25" rerouteNo="0" devices="tripinfo_a4i_CAV.55 emissions_a4i_CAV.55" vType="CAV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="1632.233068" CO2_abs="189272.788741" HC_abs="11.233669" PMx_abs="2.565176" NOx_abs="70.017271" fuel_abs="81.360506" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_HV.34" depart="212.30" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="14.22" arrival="393.12" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.00" duration="180.82" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="7.78" rerouteNo="0" devices="tripinfo_a4i_HV.34 emissions_a4i_HV.34" vType="HV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="1496.300709" CO2_abs="409037.955780" HC_abs="11.051848" PMx_abs="3.606182" NOx_abs="134.040354" fuel_abs="175.829430" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_CAV.56" depart="214.66" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="16.06" arrival="395.58" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.00" duration="180.92" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="7.88" rerouteNo="0" devices="tripinfo_a4i_CAV.56 emissions_a4i_CAV.56" vType="CAV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="1518.871003" CO2_abs="164763.852702" HC_abs="10.556698" PMx_abs="2.328608" NOx_abs="61.951482" fuel_abs="70.825092" electricity_abs="0"/>
+    </tripinfo>
+    <tripinfo id="a4i_CAV.57" depart="216.87" departLane="bi_0" departPos="4.60" departSpeed="10.00" departDelay="15.75" arrival="398.07" arrivalLane="ci_0" arrivalPos="300.00" arrivalSpeed="15.01" duration="181.20" routeLength="2595.60" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="8.16" rerouteNo="0" devices="tripinfo_a4i_CAV.57 emissions_a4i_CAV.57" vType="CAV" speedFactor="0.45" vaporized="">
+        <emissions CO_abs="1574.407436" CO2_abs="166519.765014" HC_abs="10.884820" PMx_abs="2.375932" NOx_abs="62.805287" fuel_abs="71.579886" electricity_abs="0"/>
+    </tripinfo>
 </tripinfos>

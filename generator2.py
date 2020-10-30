@@ -13,14 +13,14 @@ def generate_platoon(VehicleRate,penetration,SimuTime):
 	with open("cfg/freeway.rou.xml", "w") as routes:
 		print("""<flows>
 		<vType id="CAV" accel="2.5" tau = '0.6' decel="10" sigma="0.5" length="4.5"
-		   minGap="10" maxSpeed="15" />
+		   minGap="10" maxSpeed="15"  carFollowModel="CACC" gapClosingControlGainGap="10"/>
 
-		<vType id="HV" accel="2.5" tau = '1' decel="10" sigma="0.5" length="4.5"
+		<vType id="HV1" accel="2.5" tau = '1' decel="10" sigma="0.5" length="4.5"
 		   minGap="10" maxSpeed="15" lcKeepRight="0" color="1,0,0" probability="1"
 		   carFollowModel="CC" tauEngine="0.5" omegaN="0.2" xi="1" c1="0.5"
 		   lanesCount="4" ccAccel="5" ccDecel="5" ploegKp="0.2" ploegKd="0.7" ploegH="0.5" />
 
-		<vType id="HV1" accel="2.5" tau = '1' decel="10" lcKeepRight="0.2" sigma="0.5" length="4.5"
+		<vType id="HV" accel="2.5" tau = '1' decel="10" lcKeepRight="0.2" sigma="0.5" length="4.5"
 		   minGap="10" maxSpeed="15" color="1,0,0"  carFollowModel="IDM" />
 		<route id="route1" edges="bi a1i_1 ci "/> """, file=routes)
 
